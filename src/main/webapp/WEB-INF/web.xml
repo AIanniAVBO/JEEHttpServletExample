@@ -19,4 +19,14 @@
     <servlet-name>HelloServlet</servlet-name>
     <url-pattern>/HelloServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SumServlet</display-name>
+    <servlet-name>SumServlet</servlet-name>
+    <servlet-class>org.avbo.tpsit.servletexample.operations.SumServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SumServlet</servlet-name>
+    <url-pattern>/sum</url-pattern>
+  </servlet-mapping>
 </web-app>
