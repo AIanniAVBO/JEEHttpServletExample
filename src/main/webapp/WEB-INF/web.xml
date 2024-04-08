@@ -15,4 +15,8 @@
     <servlet-name>HelloServlet</servlet-name>
     <servlet-class>org.avbo.tpsit.servletexample.HelloServlet</servlet-class>
   </servlet>
+  <servlet-mapping>
+    <servlet-name>HelloServlet</servlet-name>
+    <url-pattern>/HelloServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
