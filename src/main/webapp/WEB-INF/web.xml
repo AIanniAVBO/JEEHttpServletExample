@@ -29,4 +29,14 @@
     <servlet-name>SumServlet</servlet-name>
     <url-pattern>/sum</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DiffServlet</display-name>
+    <servlet-name>DiffServlet</servlet-name>
+    <servlet-class>org.avbo.tpsit.servletexample.operations.DiffServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DiffServlet</servlet-name>
+    <url-pattern>/diff</url-pattern>
+  </servlet-mapping>
 </web-app>
